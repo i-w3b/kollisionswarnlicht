@@ -1,0 +1,19 @@
+1. Please transcribe the word “Buttercup” in IPA:
+	b u t œ r k u  p 
+	
+2. Give a bash command (can include pipes) that lists all files in the current directory, keeps the ones ending with .txt and prints the remaining ones alphabetically sorted.
+	ls *.txt | sort | echo
+
+3. Explain the process of LSA using SVD and how can we make use of the result of SVD to reduce the dimensionality of word representations?
+	SVD can be used to reduce the dimensionality of co-occurence matrices. This happens mainly by eliminating dimensions which have a strong correlation. A function to compare the similarity of vectors, like cosine distance, can be used to infer the similarity between words.
+
+4. Explain coarticulation? With an example.
+	Coarticulation happens when two neighbouring phonemes influence the articulation of each other resulting in a slightly different place of articulation. 
+
+l. What are the six levels of linguistics? Give a 1-2 sentence explanation of what each level examines.
+	- Phonetics: Examines the sounds used to produce human speech
+	- Phonology: Valid combination of phonems in human speech
+	- Morphology: How words can be modified and changed
+	- Syntax: How words can be combined to produce a valid string of words. This sentence may bear no meaning but its structure is correct.
+	- Semantics: The meaning behind a sentence. The use of words to convey meaning.
+	- Pragmatics: The same as Semantics but with the application of outside knowledge.
