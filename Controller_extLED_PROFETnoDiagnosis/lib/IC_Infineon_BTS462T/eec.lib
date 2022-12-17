@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Infineon BTS462T
+#
+DEF BTS462T U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "BTS462T" 0 300 50 H V L CNN 
+F2 "Infineon-BTS462T-*" 0 400 50 H I L CNN 
+F3 "http://www.infineon.com/dgdl/BTS462T.pdf?folderId=db3a304314dca389011537739e37155f&fileId=db3a30431b3e89eb011b7ebc0f3e1559&location=en.Products.Automotive_ICs.Smart_High-_and_Low-Side_Switches.PROFET__-_Smart_High_Side_Switches.DATASHEET.BTS462T.pdf" 0 500 50 H I L CNN 
+F4 "1" 0 600 50 H I L CNN "Channels"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.infineon.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.infineon.com/dgdl/TLE7276-Data+Sheet-+v1_11.pdf?folderId=db3a304412b407950112b408e8c90004&fileId=db3a304412b407950112b436c53f66c8&sId=db3a30433db6f09f013dc0e43c0428c1" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "Rev. 1.1" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "true" 0 1200 50 H I L CNN "Green"
+F11 "Automotive Qualified" 0 1300 50 H I L CNN "Group"
+F12 "true" 0 1400 50 H I L CNN "Halogen free"
+F13 "4.4 A" 0 1500 50 H I L CNN "Load Current typ"
+F14 "Surface Mount" 0 1600 50 H I L CNN "Mounting Technology"
+F15 "5-Pin Plastic (Green) Transistor Single Outline Package, 6.5 x 6.12 mm Body, 1.14 mm Pitch" 0 1700 50 H I L CNN "Package Description"
+F16 "Nov-10" 0 1800 50 H I L CNN "Package Version"
+F17 "Reel" 0 1900 50 H I L CNN "Packing"
+F18 "41.6 W" 0 2000 50 H I L CNN "Ptot max"
+F19 "100 mOhm" 0 2100 50 H I L CNN "RON  25degreesC"
+F20 "200 mOhm" 0 2200 50 H I L CNN "RONmax  150degreesC"
+F21 "34 V" 0 2300 50 H I L CNN "Recommended Operating Voltage Max"
+F22 "5 V" 0 2400 50 H I L CNN "Recommended Operating Voltage Min"
+F23 "IC" 0 2500 50 H I L CNN "category"
+F24 "7631764" 0 2600 50 H I L CNN "ciiva ids"
+F25 "eb9f926069472695" 0 2700 50 H I L CNN "library id"
+F26 "Infineon" 0 2800 50 H I L CNN "manufacturer"
+F27 "PG-TO252-5-11" 0 2900 50 H I L CNN "package"
+F28 "1409236507" 0 3000 50 H I L CNN "release date"
+F29 "B628583A-0698-4EA8-BEB2-848EFAC8A263" 0 3100 50 H I L CNN "vault revision"
+F30 "yes" 0 3200 50 H I L CNN "imported"
+F31 "230 us" 0 3300 50 H I L CNN "toff max"
+F32 "170 us" 0 3400 50 H I L CNN "ton max"
+DRAW
+X GND 1 900 -400 100 L 40 40 1 1 W 
+X IN 2 100 0 100 R 40 40 1 1 I 
+X NC 4 100 -200 100 R 40 40 1 1 P 
+X OUT 5 900 0 100 L 40 40 1 1 W 
+X VBB 3 100 -400 100 R 40 40 1 1 W 
+S 200 100 800 -500 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

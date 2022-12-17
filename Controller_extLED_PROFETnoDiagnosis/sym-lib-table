@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "BTS462")(type "Legacy")(uri "${KIPRJMOD}/lib/IC_Infineon_BTS462T/eec.lib")(options "")(descr ""))
+)
